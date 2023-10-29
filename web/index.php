@@ -8,7 +8,6 @@ require __DIR__.'/../vendor/autoload.php';
 $programmer = new \testTask\app\Programmer("Alex", 150);
 $manager = new \testTask\app\Manager("Anastasia", 300);
 
-//Есть 3 класса
 echo $programmer->getStatus();
 echo '<br>';
 echo $programmer->getName();
