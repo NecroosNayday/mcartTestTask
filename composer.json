@@ -1,0 +1,13 @@
+{
+    "name": "necr/test",
+    "description": "inheritance",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "testTask\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
